@@ -1,0 +1,128 @@
+.pas_de_retrait
+{
+list-style-position: inside;
+}
+.retrait
+{
+list-style-position:
+outside;
+}
+/* Listes à puces non ordonnées */
+.cercle
+{
+list-style-type: circle;
+}
+.carre
+{
+list-style-type:square;
+}
+.rien
+{
+list-style-type: none;
+}
+.commence_a_zero
+{
+list-style-type: decimal-leading-zero;
+}
+.lettres_minuscules
+{
+list-style-type: lower-alpha;
+}
+.chiffres_romains
+{
+list-style-type: upper-roman;
+}
+.lettres_grecques
+{
+list-style-type: lower-greek;
+}
+/* Quelques styles supplémentairesjuste pour la présentation
+En plus ça vous fait quelques rappels;o) */
+h2
+{
+text-indent: 20px;
+font-family: Arial, Verdana, "Times New Roman", serif;
+}
+em
+{
+background-color: yellow;
+}
+strong
+{
+color: red;
+}
+ul /* Ma liste aura des puces en forme de dossiers */
+{
+list-style-image: url("dossier.png");
+}
+/* Juste pour améliorer la présentation : */
+a
+{
+color: blue;
+text-decoration: none;
+}
+a:hover
+{
+text-decoration: underline;
+}
+td /* Toutes les cellules des tableaux... */
+{
+border: 1px solid black; /* ... auront une bordure de 1px */
+}
+table
+{
+border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+}
+td
+{
+border: 1px solid black;
+}
+.ali{
+    text-align: center;
+    text-decoration: underline;
+}
+body{
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+.al{
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+}
+.li{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+.ajustez{
+    height: 500PX;
+    width: 500px;
+}
+#description{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.lit{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+.cool{
+    text-align: justify;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.lolol{
+    background-color: chartreuse;
+}
+.luck{
+    height: 50px;
+}
